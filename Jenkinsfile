@@ -1,7 +1,7 @@
 pipeline {
 
   environment {
-    PROJECT = qwiklabs-gcp-01-d21b07705eac
+    PROJECT ="qwiklabs-gcp-01-d21b07705eac"
     APP_NAME = "gceme"
     FE_SVC_NAME = "${APP_NAME}-frontend"
     CLUSTER = "jenkins-cd"
